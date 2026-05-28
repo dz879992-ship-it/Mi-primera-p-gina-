@@ -1,2 +1,2 @@
-# Mi-primera-p-gina-
-Primera página web
+# Critica gastronómica 
+esto es una crítica 
