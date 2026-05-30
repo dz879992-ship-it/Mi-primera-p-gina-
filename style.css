@@ -1,0 +1,104 @@
+/* ==========================================
+ESTILOS ORIGINALES (Manteniendo tu base)
+   ========================================== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 50px;
+}
+
+h1 {
+    color: #003366;
+}
+
+h3 {
+    color: #003999;
+}
+
+strong {
+    color: #003999;
+}
+
+
+/* ==========================================
+NUEVOS ESTILOS PARA EL MENÚ Y LAS CAJAS
+   ========================================== */
+
+/* 1. Caja Contenedora Principal */
+.contenedor-principal {
+    max-width: 850px;       /* Evita que el texto se estire demasiado en pantallas grandes */
+    margin: 30px auto;      /* Centra la caja en la pantalla */
+    background-color: #ffffff; /* Fondo blanco para que resalte del fondo gris del body */
+    padding: 40px;          /* Espacio interno para que el texto no toque los bordes */
+    border-radius: 8px;     /* Bordes sutilmente redondeados */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05); /* Sombra suave para darle profundidad */
+}
+
+/* 2. Menú de Navegación */
+.menu-navegacion {
+    background-color: #003366; /* Usamos tu color azul oscuro de fondo */
+    padding: 12px 0;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.menu-navegacion ul {
+    list-style-type: none;  /* Quita los puntitos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex;          /* Pone los elementos uno al lado del otro */
+    justify-content: center; /* Centra las opciones del menú */
+    gap: 25px;              /* Espacio de separación entre botones */
+}
+
+.menu-navegacion a {
+    color: #ffffff;         /* Texto blanco */
+    text-decoration: none;  /* Quita el subrayado de los enlaces */
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.3s ease; /* Efecto suave al pasar el ratón */
+}
+
+.menu-navegacion a:hover {
+    color: #a0c4ff;         /* Cambia a un azul claro cuando pasas el cursor */
+}
+
+/* 3. Ajustes de la Cabecera y Contenido */
+.cabecera-critica h2 {
+    color: #555555;
+    font-size: 1.1rem;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.contenido-resena ul {
+    padding-left: 20px;
+}
+
+.contenido-resena li {
+    margin-bottom: 18px;    /* Separa los bloques de la reseña para que no se amontonen */
+    line-height: 1.6;       /* Hace el texto más legible */
+}
+
+/* 4. Caja Destacada (Nota del Crítico) */
+.caja-nota-critico {
+    background-color: #e6f0fa; /* Un fondo azul muy suave */
+    border-left: 5px solid #003999; /* Línea gruesa a la izquierda con tu color azul */
+    padding: 15px 20px;
+    margin: 25px 0;
+    border-radius: 0 6px 6px 0;
+}
+
+.caja-nota-critico p {
+    margin: 0;
+    font-style: italic;     /* Texto en cursiva para dar formato de nota */
+}
+
+/* 5. Separadores Horizontales */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #dddddd;
+    margin: 30px 0;
+}
